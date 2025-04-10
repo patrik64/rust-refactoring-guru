@@ -29,11 +29,11 @@ The publish method of the document works a little bit differently in each state:
 
 ![grafik](https://github.com/user-attachments/assets/672e7e38-11a5-4989-8702-3c48d3b05800)
 
-State machines are usually implemented with lots of conditional statements (if or switch) that select the appropriate behavior depending on the current state of the object. 
+State machines are usually implemented with lots of conditional statements (``if`` or ``switch``) that select the appropriate behavior depending on the current state of the object. 
 Usually, this “state” is just a set of values of the object’s fields.  
 Even if you’ve never heard about finite-state machines before, you’ve probably implemented a state at least once.
 
-The biggest weakness of a state machine based on conditionals reveals itself once we start adding more and more states and state-dependent behaviors to the Document class. Most methods will contain monstrous conditionals that pick the proper behavior of a method according to the current state. Code like this is very difficult to maintain because any change to the transition logic may require changing state conditionals in every method.
+The biggest weakness of a state machine based on conditionals reveals itself once we start adding more and more states and state-dependent behaviors to the ``Document`` class. Most methods will contain monstrous conditionals that pick the proper behavior of a method according to the current state. Code like this is very difficult to maintain because any change to the transition logic may require changing state conditionals in every method.
 
 The problem tends to get bigger as a project evolves. It’s quite difficult to predict all possible states and transitions at the design stage. Hence, a lean state machine built with a limited set of conditionals can grow into a bloated mess over time.
 
@@ -41,13 +41,13 @@ The problem tends to get bigger as a project evolves. It’s quite difficult to 
 
 The State pattern suggests that you create new classes for all possible states of an object and extract all state-specific behaviors into these classes.
 
-Instead of implementing all behaviors on its own, the original object, called context, stores a reference to one of the state objects that represents its current state, and delegates all the state-related work to that object.
+Instead of implementing all behaviors on its own, the original object, called *context*, stores a reference to one of the state objects that represents its current state, and delegates all the state-related work to that object.
 
 ![grafik](https://github.com/user-attachments/assets/9563cf4f-caee-488f-998c-9bb7c40dfae1)
 
 To transition the context into another state, replace the active state object with another object that represents that new state. This is possible only if all state classes follow the same interface and the context itself works with these objects through that interface.
 
-This structure may look similar to the Strategy pattern, but there’s one key difference. In the State pattern, the particular states may be aware of each other and initiate transitions from one state to another, whereas strategies almost never know about each other.
+This structure may look similar to the **Strategy** pattern, but there’s one key difference. In the State pattern, the particular states may be aware of each other and initiate transitions from one state to another, whereas strategies almost never know about each other.
 
 
 ## Pros and Cons
