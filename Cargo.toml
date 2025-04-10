@@ -1,4 +1,4 @@
 [workspace]
-members = ["behavioral/state", "behavioral/strategy", "creational/builder", "structural/facade", "structural/proxy"]
+members = ["behavioral/state", "behavioral/strategy", "creational/builder", "creational/prototype", "structural/facade", "structural/proxy"]
 
 resolver = "3"
