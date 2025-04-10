@@ -29,4 +29,12 @@ In real life, prototypes are used for performing various tests before starting m
 
 Since industrial prototypes don’t really copy themselves, a much closer analogy to the pattern is the process of mitotic cell division (biology, remember?). After mitotic division, a pair of identical cells is formed. The original cell acts as a prototype and takes an active role in creating the copy.
 
+## Pros and Cons
+
+| Pros | Cons |
+| ----------- | ----------- |
+|☑ You can clone objects without coupling to their concrete classes.|☒ Cloning complex objects that have circular references might be very tricky.|
+|☑ You can get rid of repeated initialization code in favor of cloning pre-built prototypes.||
+|☑ You can produce complex objects more conveniently.||
+|☑ You get an alternative to inheritance when dealing with configuration presets for complex objects.||
 
