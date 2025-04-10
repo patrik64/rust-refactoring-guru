@@ -42,4 +42,13 @@ But what’s the benefit? If you need to execute something either before or afte
 
 A credit card is a proxy for a bank account, which is a proxy for a bundle of cash. Both implement the same interface: they can be used for making a payment. A consumer feels great because there’s no need to carry loads of cash around. A shop owner is also happy since the income from a transaction gets added electronically to the shop’s bank account without the risk of losing the deposit or getting robbed on the way to the bank.
 
+## Pros and Cons
+
+| Pros | Cons |
+| ----------- | ----------- |
+|☑ You can control the service object without clients knowing about it.|☒ The code may become more complicated since you need to introduce a lot of new classes.|
+|☑ You can manage the lifecycle of the service object when clients don’t care about it.|☒ The response from the service might get delayed.|
+|☑  The proxy works even if the service object isn’t ready or is not available.||
+|☑ Open/Closed Principle. You can introduce new proxies without changing the service or clients.||
+
 
