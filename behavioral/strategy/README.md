@@ -16,7 +16,9 @@ The first version of the app could only build the routes over roads. People who 
 
 However, that was only the beginning. Later you planned to add route building for cyclists. And even later, another option for building routes through all of a city’s tourist attractions.
 
-![grafik](https://github.com/user-attachments/assets/65c72318-0ea2-40dd-b4d0-bc162105d748)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/65c72318-0ea2-40dd-b4d0-bc162105d748" width="400" />
+</p>
 
 While from a business perspective the app was a success, the technical part caused you many headaches. Each time you added a new routing algorithm, the main class of the navigator doubled in size. At some point, the beast became too hard to maintain.
 
@@ -34,7 +36,9 @@ The context isn’t responsible for selecting an appropriate algorithm for the j
 
 This way the context becomes independent of concrete strategies, so you can add new algorithms or modify existing ones without changing the code of the context or other strategies.
 
-![grafik](https://github.com/user-attachments/assets/20b5b93f-b334-4680-b4be-5d807988a4f5)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/20b5b93f-b334-4680-b4be-5d807988a4f5" width="600" />
+</p>
 
 In our navigation app, each routing algorithm can be extracted to its own class with a single ``buildRoute`` method. The method accepts an origin and destination and returns a collection of the route’s checkpoints.
 
@@ -42,7 +46,9 @@ Even though given the same arguments, each routing class might build a different
 
 ## Real-World Analogy
 
-![grafik](https://github.com/user-attachments/assets/e594150b-8aef-4da2-bb5b-5255b6aad9a1)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/e594150b-8aef-4da2-bb5b-5255b6aad9a1" width="600" />
+</p>
 
 Imagine that you have to get to the airport. You can catch a bus, order a cab, or get on your bicycle. These are your transportation strategies. You can pick one of the strategies depending on factors such as budget or time constraints.
 
