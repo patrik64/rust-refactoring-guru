@@ -11,7 +11,9 @@ It appears as if the object changed its class.
 
 The State pattern is closely related to the concept of a *Finite-State Machine*.
 
-![grafik](https://github.com/user-attachments/assets/8451b3ac-67cd-42cf-836a-fabec398257f)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/8451b3ac-67cd-42cf-836a-fabec398257f" width="400" />
+</p>
 
 The main idea is that, at any given moment, there’s a *finite number* of *states* which a program can be in.  
 Within any unique state, the program behaves differently, and the program can be switched from one state to another instantaneously.  
@@ -27,7 +29,10 @@ The publish method of the document works a little bit differently in each state:
 - In ``Moderation``, it makes the document public, but only if the current user is an administrator.
 - In ``Published``, it doesn’t do anything at all.
 
-![grafik](https://github.com/user-attachments/assets/672e7e38-11a5-4989-8702-3c48d3b05800)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/672e7e38-11a5-4989-8702-3c48d3b05800" width="500" />
+</p>
+
 
 State machines are usually implemented with lots of conditional statements (``if`` or ``switch``) that select the appropriate behavior depending on the current state of the object. 
 Usually, this “state” is just a set of values of the object’s fields.  
@@ -43,7 +48,9 @@ The State pattern suggests that you create new classes for all possible states o
 
 Instead of implementing all behaviors on its own, the original object, called *context*, stores a reference to one of the state objects that represents its current state, and delegates all the state-related work to that object.
 
-![grafik](https://github.com/user-attachments/assets/9563cf4f-caee-488f-998c-9bb7c40dfae1)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/9563cf4f-caee-488f-998c-9bb7c40dfae1" width="500" />
+</p>
 
 To transition the context into another state, replace the active state object with another object that represents that new state. This is possible only if all state classes follow the same interface and the context itself works with these objects through that interface.
 
