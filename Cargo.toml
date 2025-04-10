@@ -1,4 +1,4 @@
 [workspace]
-members = ["creational/builder"]
+members = [ "behavioral/state","creational/builder"]
 
 resolver = "3"
