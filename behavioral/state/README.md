@@ -49,6 +49,14 @@ To transition the context into another state, replace the active state object wi
 
 This structure may look similar to the **Strategy** pattern, but there’s one key difference. In the State pattern, the particular states may be aware of each other and initiate transitions from one state to another, whereas strategies almost never know about each other.
 
+## Real-World Analogy
+
+The buttons and switches in your smartphone behave differently depending on the current state of the device:
+
+- When the phone is unlocked, pressing buttons leads to executing various functions.
+- When the phone is locked, pressing any button leads to the unlock screen.
+- When the phone’s charge is low, pressing any button shows the charging screen.
+
 
 ## Pros and Cons
 
