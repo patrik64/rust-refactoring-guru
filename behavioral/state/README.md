@@ -1,6 +1,6 @@
 ![grafik](https://github.com/user-attachments/assets/c70fb1ae-d46d-407a-bb7c-5cebf025fd23)
 
-# State
+# [State](https://refactoring.guru/design-patterns/state)
 
 ## Intent
 
