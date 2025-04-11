@@ -1,6 +1,6 @@
 ![grafik](https://github.com/user-attachments/assets/07d10b2b-bf45-414c-8397-ea70b6b10537)
 
-# Prototype
+# [Prototype](https://refactoring.guru/design-patterns/prototype)
 
 ## Intent
 **Prototype** is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
