@@ -1,6 +1,6 @@
 ![grafik](https://github.com/user-attachments/assets/3cb695d1-e027-461a-b52d-419e44c84d84)
 
-# Strategy
+# [Strategy](https://refactoring.guru/design-patterns/strategy)
 
 ## Intent
 
