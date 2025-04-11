@@ -1,6 +1,6 @@
 ![grafik](https://github.com/user-attachments/assets/43fc0489-329f-4e6f-94b2-bd8df97a2b14)
 
-# Proxy
+# [Proxy](https://refactoring.guru/design-patterns/proxy)
 
 ## Intent
 
