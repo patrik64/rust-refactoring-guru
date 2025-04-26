@@ -1,5 +1,5 @@
 # rust-refactoring-guru
-desing pattern sample code from [refactoring guru website](https://refactoring.guru)
+design patterns sample code from [refactoring guru website](https://refactoring.guru)
 
 to run the samples:
 
