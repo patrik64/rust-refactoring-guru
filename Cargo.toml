@@ -12,7 +12,7 @@ members = [
     "creational/prototype",
     "creational/singleton",
     "structural/adapter",
-    "structural/bridge",
+    "structural/bridge", "structural/component",
     "structural/facade",
     "structural/proxy",
 ]
