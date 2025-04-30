@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/cd80bb7a-9d62-4c90-9561-a1e83bec96b6)
 
-# Bridge
+# [Bridge](https://refactoring.guru/design-patterns/state)
 
 ## Intent
 
