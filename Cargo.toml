@@ -1,5 +1,7 @@
 [workspace]
-members = [ "behavioral/command",
+
+members = [
+    "behavioral/command",
     "behavioral/iterator",
     "behavioral/state",
     "behavioral/strategy",
@@ -10,6 +12,7 @@ members = [ "behavioral/command",
     "creational/prototype",
     "creational/singleton",
     "structural/adapter",
+    "structural/bridge",
     "structural/facade",
     "structural/proxy",
 ]
