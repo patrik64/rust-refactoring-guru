@@ -80,7 +80,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "component"
+name = "composite"
 version = "0.1.0"
 
 [[package]]
@@ -278,6 +278,10 @@ version = "0.1.0"
 
 [[package]]
 name = "factory-method"
+version = "0.1.0"
+
+[[package]]
+name = "flyweight"
 version = "0.1.0"
 
 [[package]]

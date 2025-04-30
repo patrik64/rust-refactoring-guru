@@ -15,7 +15,7 @@ members = [
     "structural/bridge",
     "structural/composite",
     "structural/decorator",
-    "structural/facade",
+    "structural/facade", "structural/flyweight",
     "structural/proxy",
 ]
 
