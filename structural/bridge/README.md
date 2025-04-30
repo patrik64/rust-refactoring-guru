@@ -35,7 +35,10 @@ The Bridge pattern attempts to solve this problem by switching from inheritance 
 </p>  
 
 
-Following this approach, we can extract the color-related code into its own class with two subclasses: ``Red`` and ``Blue``. The ``Shape`` class then gets a reference field pointing to one of the color objects. Now the shape can delegate any color-related work to the linked color object. That reference will act as a bridge between the ``Shape`` and ``Color`` classes. From now on, adding new colors won’t require changing the shape hierarchy, and vice versa.
+Following this approach, we can extract the color-related code into its own class with two subclasses: ``Red`` and ``Blue``. The ``Shape`` class then gets a reference field pointing to one of the color objects. Now the shape can delegate any color-related work to the linked color object. That reference will act as a bridge between the ``Shape`` and ``Color`` classes. From now on, adding new colors won’t require changing the shape hierarchy, and vice versa. 
+
+## Pros and Cons 
+
 
 | Pros | Cons |
 | ----------- | ----------- |
