@@ -25,7 +25,9 @@ For instance, an app that uploads short funny videos with cats to social media c
 
 ## Real-World Analogy
 
-When you call a shop to place a phone order, an operator is your facade to all services and departments of the shop. The operator provides you with a simple voice interface to the ordering system, payment gateways, and various delivery services.
+When you call a shop to place a phone order, an operator is your facade to all services and departments of the shop. The operator provides you with a simple voice interface to the ordering system, payment gateways, and various delivery services. 
+
+## Pros and Cons
 
 | Pros | Cons |
 | ----------- | ----------- |
