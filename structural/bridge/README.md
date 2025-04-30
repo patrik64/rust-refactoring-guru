@@ -23,7 +23,19 @@ For example, to add a triangle shape you’d need to introduce two subclasses, o
 And after that, adding a new color would require creating three subclasses, one for each shape type.  
 The further we go, the worse it becomes.
 
+## Solution
 
+This problem occurs because we’re trying to extend the shape classes in two independent dimensions: by form and by color. That’s a very common issue with class inheritance.
+
+The Bridge pattern attempts to solve this problem by switching from inheritance to the object composition. What this means is that you extract one of the dimensions into a separate class hierarchy, so that the original classes will reference an object of the new hierarchy, instead of having all of its state and behaviors within one class. 
+
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/9feee4e9-f13e-40e4-bad8-9cf9df8cf021" width="400" />
+</p>  
+
+
+Following this approach, we can extract the color-related code into its own class with two subclasses: ``Red`` and ``Blue``. The ``Shape`` class then gets a reference field pointing to one of the color objects. Now the shape can delegate any color-related work to the linked color object. That reference will act as a bridge between the ``Shape`` and ``Color`` classes. From now on, adding new colors won’t require changing the shape hierarchy, and vice versa.
 
 | Pros | Cons |
 | ----------- | ----------- |
