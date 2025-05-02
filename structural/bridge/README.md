@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/cd80bb7a-9d62-4c90-9561-a1e83bec96b6)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/cd80bb7a-9d62-4c90-9561-a1e83bec96b6" width="200" />
+</p>
 
 # [Bridge](https://refactoring.guru/design-patterns/bridge)
 
