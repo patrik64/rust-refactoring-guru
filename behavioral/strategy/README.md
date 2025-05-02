@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/3cb695d1-e027-461a-b52d-419e44c84d84)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/3cb695d1-e027-461a-b52d-419e44c84d84" width="200" />
+</p>
 
 # [Strategy](https://refactoring.guru/design-patterns/strategy)
 
