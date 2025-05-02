@@ -1,6 +1,6 @@
 [workspace]
 
-members = [
+members = [ "behavioral/chain-of-responsibility",
     "behavioral/command",
     "behavioral/iterator",
     "behavioral/state",
