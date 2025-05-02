@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/262a6d9c-1aea-4716-aa6b-493ddafecf7f)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/262a6d9c-1aea-4716-aa6b-493ddafecf7f" width="200" />
+</p>
 
 # [Mediator](https://refactoring.guru/design-patterns/mediator)
 
