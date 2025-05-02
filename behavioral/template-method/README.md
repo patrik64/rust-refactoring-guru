@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/58508b78-cea7-4677-af12-99eede41cd60)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/58508b78-cea7-4677-af12-99eede41cd60" width="200" />
+</p>
 
 # [Template Method](https://refactoring.guru/design-patterns/template-method)
 
