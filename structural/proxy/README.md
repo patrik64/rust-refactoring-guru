@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/43fc0489-329f-4e6f-94b2-bd8df97a2b14)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/43fc0489-329f-4e6f-94b2-bd8df97a2b14" width="200" />
+</p>
 
 # [Proxy](https://refactoring.guru/design-patterns/proxy)
 
