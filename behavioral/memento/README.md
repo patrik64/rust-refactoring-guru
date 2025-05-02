@@ -19,7 +19,7 @@ For the implementation, you chose to take the direct approach. Before performing
 Later, when a user decides to revert an action, the app fetches the latest snapshot from the history and uses it to restore the state of all objects. 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/30700712-771c-41ef-acb9-f7413a53ecb0" width="500" />
+<img src="https://github.com/user-attachments/assets/30700712-771c-41ef-acb9-f7413a53ecb0" width="400" />
 </p>
 
 Let’s think about those state snapshots.  
@@ -33,7 +33,7 @@ In the future, you might decide to refactor some of the editor classes, or add o
 Sounds easy, but this would also require changing the classes responsible for copying the state of the affected objects. 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/94113667-4dbb-4de7-8752-1afcf47d6ecf" width="500" />
+<img src="https://github.com/user-attachments/assets/94113667-4dbb-4de7-8752-1afcf47d6ecf" width="400" />
 </p>
 
 But there’s more. Let’s consider the actual “snapshots” of the editor’s state. What data does it contain? 
@@ -65,7 +65,7 @@ Other objects must communicate with mementos using a limited interface which may
 but not the original object’s state contained in the snapshot. 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/5468e85a-68bc-4e96-b3a2-a087c0bc8a87" width="500" />
+<img src="https://github.com/user-attachments/assets/5468e85a-68bc-4e96-b3a2-a087c0bc8a87" width="400" />
 </p>
 
 Such a restrictive policy lets you store mementos inside other objects, usually called caretakers.  
