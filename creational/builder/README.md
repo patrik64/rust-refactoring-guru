@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/27406009-5351-4b20-b4f7-f17cef609316)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/27406009-5351-4b20-b4f7-f17cef609316" width="200" />
+</p>
 
 # [Builder](https://refactoring.guru/design-patterns/builder)
 
