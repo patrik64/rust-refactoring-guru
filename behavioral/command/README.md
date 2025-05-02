@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/3cd2c224-15ab-47b7-bb83-48bbf22e6de7)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/3cd2c224-15ab-47b7-bb83-48bbf22e6de7" width="200" />
+</p>
 
 
 # [Command](https://refactoring.guru/design-patterns/command)
