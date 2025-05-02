@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/53546aaf-1323-4627-9029-a8a467fbbc9a)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/53546aaf-1323-4627-9029-a8a467fbbc9a" width="200" />
+</p>
 
 # [Visitor](https://refactoring.guru/design-patterns/visitor)
 
