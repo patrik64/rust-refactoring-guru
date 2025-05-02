@@ -4,7 +4,7 @@ members = [
     "behavioral/chain-of-responsibility",
     "behavioral/command",
     "behavioral/iterator",
-    "behavioral/mediator",
+    "behavioral/mediator", "behavioral/memento",
     "behavioral/state",
     "behavioral/strategy",
     "behavioral/visitor",
