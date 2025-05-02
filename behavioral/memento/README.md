@@ -1,6 +1,8 @@
-![grafik](https://github.com/user-attachments/assets/ebeb847c-108f-4b60-80f5-f619320a9db1)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/ebeb847c-108f-4b60-80f5-f619320a9db1" width="200" />
+</p>
 
-# Memento
+# [Memento](https://refactoring.guru/design-patterns/memento)
 
 ## Intent
 
