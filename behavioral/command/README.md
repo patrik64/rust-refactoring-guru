@@ -1,4 +1,5 @@
-https://refactoring.guru/design-patterns/command
+![grafik](https://github.com/user-attachments/assets/3cd2c224-15ab-47b7-bb83-48bbf22e6de7)
+
 
 # [Command](https://refactoring.guru/design-patterns/command)
 
