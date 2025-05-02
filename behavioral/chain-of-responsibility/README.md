@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/7176ed6a-5d68-4797-ae6c-02f6b4dd0637)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/7176ed6a-5d68-4797-ae6c-02f6b4dd0637" width="200" />
+</p>
 
 # [Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
 
