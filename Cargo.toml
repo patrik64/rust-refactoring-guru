@@ -1,8 +1,10 @@
 [workspace]
 
-members = [ "behavioral/chain-of-responsibility",
+members = [
+    "behavioral/chain-of-responsibility",
     "behavioral/command",
     "behavioral/iterator",
+    "behavioral/mediator",
     "behavioral/state",
     "behavioral/strategy",
     "behavioral/visitor",
@@ -15,7 +17,8 @@ members = [ "behavioral/chain-of-responsibility",
     "structural/bridge",
     "structural/composite",
     "structural/decorator",
-    "structural/facade", "structural/flyweight",
+    "structural/facade",
+    "structural/flyweight",
     "structural/proxy",
 ]
 
