@@ -6,7 +6,7 @@ members = [
     "behavioral/iterator",
     "behavioral/mediator", "behavioral/memento", "behavioral/observer",
     "behavioral/state",
-    "behavioral/strategy",
+    "behavioral/strategy", "behavioral/template-method",
     "behavioral/visitor",
     "creational/abstract-factory",
     "creational/builder",
