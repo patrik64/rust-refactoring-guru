@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/457611b7-d633-4c13-9527-fbc4f41a8f15)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/457611b7-d633-4c13-9527-fbc4f41a8f15" width="200" />
+</p>
 
 # [Facade](https://refactoring.guru/design-patterns/facade)
 
