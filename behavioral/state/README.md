@@ -1,4 +1,7 @@
-![grafik](https://github.com/user-attachments/assets/c70fb1ae-d46d-407a-bb7c-5cebf025fd23)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/c70fb1ae-d46d-407a-bb7c-5cebf025fd23" width="200" />
+</p>
+
 
 # [State](https://refactoring.guru/design-patterns/state)
 
