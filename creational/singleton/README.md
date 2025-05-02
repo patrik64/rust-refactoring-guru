@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/3e161eeb-e5a7-4a93-80b6-529e4c160551)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/3e161eeb-e5a7-4a93-80b6-529e4c160551" width="200" />
+</p>
 
 # [Singleton](https://refactoring.guru/design-patterns/singleton)
 
