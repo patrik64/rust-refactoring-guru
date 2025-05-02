@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/e661de63-1632-4909-88db-3bc90bf9aa5b)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/e661de63-1632-4909-88db-3bc90bf9aa5b" width="200" />
+</p>
 
 # [Adapter](https://refactoring.guru/design-patterns/adapter)
 
