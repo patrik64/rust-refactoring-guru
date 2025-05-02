@@ -1,4 +1,6 @@
-![grafik](https://github.com/user-attachments/assets/4f7c8f2b-3e9e-4979-8fa0-30a7c7ef8c78)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/4f7c8f2b-3e9e-4979-8fa0-30a7c7ef8c78" width="200" />
+</p>
 
 # [Iterator](https://refactoring.guru/design-patterns/iterator)
 
